@@ -1,42 +1,105 @@
-* {
-	box-sizing: border-box;
-}
-
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-	text-align: center;
+body {
+    background-image: url("./R.jpeg");
+    background-size: cover;
 }
 
 h1 {
-	font-size: 2.5em;
+    color: orange;
+    /*Définition de la couleur de la police */
+    background-color: white;
+    /* Définition de la couleur du fond */
+    text-align: center;
+    /* Alignement du texte */
+    font-size: 30px;
+    font-family: fantasy;
+    opacity: 80%;
+    border-radius: 10px;
+    text-decoration: underline;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
-	font-size: 1.2em;
+.titre2 {
+    background-color: violet;
+    opacity: 60%;
+    border-radius: 10%;
+    border: 1px solid black;
 }
 
-button {
-	display: block;
-	margin: 20px auto;
-	padding: 10px 20px;
-	font-size: 1.2em;
-	border: none;
-	border-radius: 5px;
-	background-color: #4CAF50;
-	color: white;
-	cursor: pointer;
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-	h1 {
-		font-size: 2em;
-	}
-	p {
-		font-size: 1em;
-	}
-	button {
-		margin: 10px auto;
-	}
+.strophe {
+    text-align: center;
+    /*le texte sera aligné au centre*/
+    color: black;
+    /*le texte est en bleu, les couleurs sont codées #rrvvbb de #000000 à #FFFFFF*/
+    background-color: white;
+    font-weight: 800;
+    opacity: 80%;
+    border-radius: 45%;
+    border: 1px solid black;
+}
+
+.surligner {
+    color: violet;
+    /*le texte est en rouge */
+    font-weight: bold;
+    /*la police est en gras */
+}
+
+.poeme {
+    padding: 25px 30px 25px 30px;
+    /*marges intérieures :haut, droite, bas puis gauche*/
+    background-image: url("./fourmi.jpg");
+    border-radius: 15%;
+    background-size: cover;
+}
+
+.lien {
+    width: 40%;
+    border-radius: 25%;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    left: 4%;
+    height: 50%;
+    opacity: 80%;
+    border: 3px rgb(76, 0, 255) solid;
+    top: 15%;
+    color: rgb(76, 0, 255);
+}
+
+.comp1 {
+    border: 5px violet solid;
+    position: absolute;
+    top: 15%;
+    margin-left: 50%;
+    width: 40%;
+    /* largeur du bloc 70% de la page */
+    height: auto;
+    /*hauteur du bloc (auto ici) */
+    background-color: white;
+    opacity: 80%;
+    padding: 40px 20px 40px 20px;
+}
+
+.comp2 {
+    border: 3px solid red;
+    color: red;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    width: 40%;
+    left: 4%;
+    height: 50%;
+    top: 80%;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 25%;
+
 }
